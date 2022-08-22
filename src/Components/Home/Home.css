@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+.isma-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  background-color: #1d354a;
+}
+
+.mainDivHome {
+  background-color: rgb(45, 44, 44);
+  color: rgb(200, 175, 175);
+  height: 100%;
+  width: 100%;
+}
+
+.baelTask {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.thebestmonth {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mainThebestmonth {
+  justify-content: center;
+}
+.sectionEvent {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.mainDescUp {
+  background-color: #202020;
+}
+.descUp {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.descUp h2 {
+  padding: 20px;
+  color: white;
+}
+.mainDescUp p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+.urlTextLink {
+  color: #3f90d6;
+  font-weight: bold;
+}
+.urlTextLink:hover {
+  color: gold;
+}
+.mainRulesForBigPeople {
+  padding: 15px;
+  background-color: black;
+}
+
+@media all and (max-width: 426px) {
+  .CardMedia {
+  }
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+.mainNavBar {
+  display: flex;
+  background-color: rgb(45, 44, 44);
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mainNavBar img {
+  width: 200px;
+}
+.navBarWords {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: wheat;
+}
+.active {
+  color: white;
+}
+
+@media all and (max-width: 426px) {
+  .mainNavBar img {
+    width: 100px;
+  }
+  .navBarWords {
+    font-size: 12px;
+  }
+  a {
+    text-decoration: none;
+    color: wheat;
+  }
+  .active {
+    color: white;
+  }
+}

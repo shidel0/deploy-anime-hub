@@ -1,0 +1,12 @@
+.seachDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchPhoto {
+  width: 40px;
+}
+
+.searchInput {
+  width: 80%;
+}
